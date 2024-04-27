@@ -1,7 +1,8 @@
-# 
+# Java Code Quality Evaluator
+An assignment for a JetBrains Internship
 
 ## How to Run?
-1. To clone the repository to your local machine, navigate to your desired directory in your terminal and run: `git clone https://github.com/AAcharki2311/JavaComplexityReader.git`
+1. To clone the repository to your local machine, navigate to your desired directory in your terminal and run:  ``git clone https://github.com/AAcharki2311/JavaComplexityReader.git``
 2. Navigate to the project directory.
 3. Run the application by executing the `main` method in the `Main` class.
 4. Enter the directory you would like to analyze in the console.
@@ -20,7 +21,7 @@
   - Begin with the simpler methods, such as checking if a given string is in camelCase.
 - To implement this plan, I took the following steps:
   - I created the `getFiles` method to retrieve all Java files from the specified directory.
-  - I started with the simpler methods, such as implementing the `isCamelCase` method to check if a given string is in camelCase.
+  - I started with simpler methods, such as implementing the `isCamelCase` method to check if a given string is in camelCase.
   - I created a `printResults` method to store and display the method name and corresponding complexity score using a `HashMap`.
 
 #### Next, I had to find a way to identify each method in the Java code. I took the following steps:
@@ -43,6 +44,9 @@
 #### Finally, I implemented a method to count all conditional statements within each method and listed the top three methods with the highest complexity scores.
 - To display the results, I created an `App` class where I called the `run` method in the `CodeAnalyzer` class.
 - I then wrote some lines to print the output in a user-friendly way through the `Main` class.
+
+After implementing each method, I wrote corresponding tests to ensure that every method functions correctly and meets the specified requirements.
+By writing tests for each method, I was able to build a robust and reliable application that meets the needs of the user.
 
 ## Design Choices
 
