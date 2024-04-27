@@ -1,8 +1,9 @@
 # Java Code Quality Evaluator
-An assignment for a JetBrains Internship
+#### An assignment for a JetBrains Internship
 
 ## How to Run?
-1. To clone the repository to your local machine, navigate to your desired directory in your terminal and run:  ``git clone https://github.com/AAcharki2311/JavaComplexityReader.git``
+1. To clone the repository to your local machine, navigate to your desired directory in your terminal and run:  
+   `git clone https://github.com/AAcharki2311/JavaComplexityReader.git`
 2. Navigate to the project directory.
 3. Run the application by executing the `main` method in the `Main` class.
 4. Enter the directory you would like to analyze in the console.
@@ -61,11 +62,12 @@ To make the application more flexible and user-friendly, I chose to base the dir
 This allows the user to easily specify the directory they want to analyze, making the application more adaptable to different use cases.
 This design choice improves the usability and flexibility of the application, as the user is not limited to a hard-coded directory.
 
-## Task:
-### The application performs the following tasks:
+## Task
+
+#### The application performs the following tasks:
 ### Code Complexity Evaluator: 
-The application reads Java or Kotlin files from a specified directory and analyzes the methods/functions for complexity. 
-It counts the number of conditional statements in each method and outputs the names of the three methods with the highest complexity scores, along with their complexity scores.
+The application reads Java or Kotlin files from a specified directory and analyzes the methods for complexity. 
+It counts the number of conditional statements in each method and outputs the names of the 3 methods with the highest complexity scores, along with their complexity scores.
 
 ### Basic Code Style Check: 
 The application also reports the percentage of methods that do not adhere to the specified naming convention (e.g., camelCase for Java). 
